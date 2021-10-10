@@ -1,0 +1,33 @@
+/*
+Folha de Estilo site Cake's Home,  HTML5 e CSS3
+@autor Gislaine Carvalho
+*/
+
+/*Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*Smartphone LandScape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media(min-width:576px){
+    body{
+        background-color: #00aeff;
+    }
+}
+
+/*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media(min-width:768px){
+    body{
+        background-color: #ff008c;
+    }
+}
+/*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media(min-width:992px){
+    body{
+        background-color: #b3ff00;
+    }
+}
+/*Tablet LandScape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*PC>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media(min-width:1200px){
+    body{
+        background-color: #ff6600;
+    }
+}
+
