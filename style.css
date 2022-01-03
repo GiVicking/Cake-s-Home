@@ -3,12 +3,6 @@ Folha de Estilo site Cake's Home,  HTML5 e CSS3
 @autor Gislaine Carvalho
 */
 
-/*CSS Reset*/
-*{
-    margin:0;
-    border:0;
-    padding:0;
-}
 /*Importação*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,600;1,800&display=swap');
 body{
@@ -16,27 +10,63 @@ body{
     font-size: 1em;
 }
 
+/*CSS Reset*/
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
 /*Layout*/
 .container {
     margin:0 auto;
+    background-color: #fff;
+}
+.flex{
+    display:flex;
+    justify-content:space-between;
+    background-color:#A0522D;
 }
 
+/*topo de site*/
+#topo{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+#logo{
+    width: 6rem;
+    height: 6rem;
+}
+
+.img_logo{
+    width: 100%;
+}
+
+
+
 /*Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*Cabeçalho*/
+header{
+    height: 8rem;
+}
+
 /*Smartphone LandScape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media(min-width:576px){
-    body{
-        background-color: #00aeff;
-    }
+    .flex{
+        background-color:#A0522D;
+    } 
     /*Layout*/
     .container{
         max-width: 540px;
     }
+   
 }
 
 /*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media(min-width:768px){
-    body{
-        background-color: #ff008c;
+    .flex{
+       background-color:#A0522D;
     }
     /*Layout*/
     .container{
@@ -45,28 +75,36 @@ body{
     }
 }
  
-}
+
 /*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media(min-width:992px){
-    body{
-        background-color: #b3ff00;
+    .flex{
+        background-color:#A0522D;
     }
     /*Layout*/
     .container{
         max-width: 960px;
     }
 }
-}
+
 /*Tablet LandScape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*PC>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media(min-width:1200px){
-    body{
-        background-color: #ff6600;
+    .flex{
+        background-color:#A0522D;
     }
     /*Layout*/
     .container{
         max-width: 1140px;
     }
+    /*cabeçalho*/
+    header{
+        height: 120px;
+    }
+    #logo img{
+        width: 250px;
+        height: 189px;
+    }
 }
-}
+
 

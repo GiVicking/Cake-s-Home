@@ -14,10 +14,23 @@
 <body>
     
     <!--Cabeçalho-->
-    <header>
-        <div class="container">
-            <div id="logo"></div>
-                <img src="./receitas-de-bolo-decorado.jpg" alt="Bolo Layout">
+    <header id="inicio"> <!--identificadores de -->
+        <div class="container flex" >
+            <div id="logo">
+                <img src="./img/cupcake-removebg-preview.png" alt="Imagem do Bolo Logo" class="img_logo">
+            </div>
+            <nav>
+                <input type="checkbox"  id="check">
+                <label for="check">&#x2668;</label> <!-- código unicode hamburguer-->
+           <!--A label associa o icone ao checkbox,-->
+          <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#conteudo">Conteúdo</a></li>
+              <li><a href="#contato">Contato</a></li>
+          </ul>
+
+            </nav>
         </div>
     </header>
 
@@ -30,7 +43,7 @@
     </main>
 
     <!--sobre-->
-    <section>
+    <section id="sobre"> <!--identificadores-->
         <div class="container">
             <h2>Aprender na Prática</h2>
         </div>
@@ -51,7 +64,7 @@
     </section>
 
     <!--Conteúdo-->
-    <section>
+    <section id="conteudo"> <!--identificadores-->
     <div class="container">
         <h2>Conteúdo</h2>
         <h3>HTML5</h3>
@@ -60,12 +73,12 @@
     </div>
     </section>
     <!--Rodapé-->
-    <foot>
+    <foot id="contato"> <!--identificadores-->
         <div class="container">
 
         </div>
     </foot>
-
+<a href="#inicio" id="topo">&#x261d;</a>
 
 </body>
 </html>
